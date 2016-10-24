@@ -1,4 +1,4 @@
-# dockerindocker
+# docker-in-docker
 This is a docker in docker repo based on centos7. There are two ways for you to accomplish this task.
 
 ##One way to Running This Container
