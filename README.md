@@ -10,10 +10,10 @@ You can also just use -v /usr/bin/docker:/usr/bin/docker to avoid installing doc
 
 In the bash, you can use excute docker command to manipulate host docker resources. 
 
-In this way, it's convenient for scheuler docker tasks among a cluster of hosts. But without resource limitations, it may be not a good way to accomplish this.
+In this way, it's convenient for scheuling docker tasks among a cluster of hosts. But without resource limitations, it may be not a good way to accomplish this.
 
 ##Another Way
-We can also do this by wrapping docker environment in docker container just as jpetazzo did. The wrapdocker script is from jpetazzo's repo [dind](https://github.com/jpetazzo/dind) .
+We can also do this by wrapping docker environment in a docker container just as jpetazzo did. The wrapdocker script is from jpetazzo's repo [dind](https://github.com/jpetazzo/dind) .
 ```
 $ docker run --privileged  -d -p 4444 -e PORT=4444 softputer/dockerindocker:centos7
 $ docker ps
