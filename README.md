@@ -2,7 +2,7 @@
 This is a docker in docker repo based on centos7. There are two ways for you to accomplish this task.
 
 ##One way to Running This Container
-One way to get you started in a easy way is use your host docker.
+One way to get you started in a easy way is by using your host docker.
 ```
 docker run -it -v /var/run/docker.sock:/var/run/docker.sock  softputer/dockerindocker:latest /bin/bash
 ```
