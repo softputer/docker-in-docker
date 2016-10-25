@@ -21,9 +21,9 @@ CONTAINER ID        IMAGE                                          COMMAND      
 35843d8173b7        softputer/dockerindocker:centos7   "wrapdocker"        4 seconds ago       Up 1 seconds                                  naughty_jennings
 $ docker exec -it 35843d8173b7 /bin/bash
 ```
-After you get into the container, you can do anything docker can do in your isolated environment.
+After you get into the container, you can do anything that docker can do in your isolated environment.
 
-By the way, You can just get into it by excuting:
+By the way, you can just get into it by executing:
 ```
 docker run --privileged -t -i softputer/dockerindocker:centos7
 ```
